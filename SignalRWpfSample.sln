@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRWpfClient", "SignalRWpfClient\SignalRWpfClient.csproj", "{CB1BD1D7-6DF5-4263-A06A-D502D8CDF3C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRService", "SignalRService\SignalRService.csproj", "{B09B8018-D15B-43A2-8C06-948219B6B8AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB1BD1D7-6DF5-4263-A06A-D502D8CDF3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB1BD1D7-6DF5-4263-A06A-D502D8CDF3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB1BD1D7-6DF5-4263-A06A-D502D8CDF3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB1BD1D7-6DF5-4263-A06A-D502D8CDF3C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09B8018-D15B-43A2-8C06-948219B6B8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09B8018-D15B-43A2-8C06-948219B6B8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09B8018-D15B-43A2-8C06-948219B6B8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09B8018-D15B-43A2-8C06-948219B6B8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38E1EE73-2727-4B97-8741-B4120CEC6359}
+	EndGlobalSection
+EndGlobal
