@@ -15,7 +15,7 @@ namespace SignalRXamarin.ViewModels
         private readonly HubConnection _hubConnection;
         public MainPageViewModel()
         {
-            _hubConnection = new HubConnectionBuilder().WithUrl("http://localhost:49970/ProductsHub").Build();
+            _hubConnection = new HubConnectionBuilder().WithUrl("http://10.0.2.2:49970/ProductsHub").Build();
             ConnectCommand = new RelayCommand(Connect);
 
         }
@@ -25,7 +25,8 @@ namespace SignalRXamarin.ViewModels
             {
                 Device.BeginInvokeOnMainThread(() =>
                 {
-                    Products.Add(p);
+                    var product = p as Product;
+                    Products.Add(product);
                 });
             }
             );

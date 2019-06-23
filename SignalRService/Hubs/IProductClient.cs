@@ -9,6 +9,7 @@ namespace SignalRService.Hubs
     public interface IProductClient
     {
         Task Add(Product product);
-        Task Delete(int id); 
+        Task Delete(int id);
+        Task ChangeQuantity(int quantity);
     }
 }

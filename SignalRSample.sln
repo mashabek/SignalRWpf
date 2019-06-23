@@ -5,13 +5,13 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRWpfClient", "SignalRWpfClient\SignalRWpfClient.csproj", "{CB1BD1D7-6DF5-4263-A06A-D502D8CDF3C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRService", "SignalRService\SignalRService.csproj", "{B09B8018-D15B-43A2-8C06-948219B6B8AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRService", "SignalRService\SignalRService.csproj", "{B09B8018-D15B-43A2-8C06-948219B6B8AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRXamarin.Android", "SignalRXamarin\SignalRXamarin.Android\SignalRXamarin.Android.csproj", "{95E1A20B-DF40-4424-8E50-36782D3B32E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRXamarin.iOS", "SignalRXamarin\SignalRXamarin.iOS\SignalRXamarin.iOS.csproj", "{32641173-2F2B-427D-B8E1-6D102F3D9142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRXamarin", "SignalRXamarin\SignalRXamarin\SignalRXamarin.csproj", "{5C28853A-57E0-4998-A870-8A8A878BEF4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRXamarin", "SignalRXamarin\SignalRXamarin\SignalRXamarin.csproj", "{5C28853A-57E0-4998-A870-8A8A878BEF4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
