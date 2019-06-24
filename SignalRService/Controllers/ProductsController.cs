@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Timers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using SignalRService.Hubs;
@@ -48,7 +49,13 @@ namespace SignalRService.Controllers
             var product = _products.FirstOrDefault(p => p.Id == id);
             product = value;
         }
-
+        [HttpPut("changeQuantity")]
+        public async void ChangeQuantity(int id, int quantity)
+        {
+            var product = _products.FirstOrDefault(p => p.Id == id);
+            product.Quantity = quantity;
+            await _hub.Clients.All.SendAsync("ChangeQuantity", id, quantity);
+        }
         // DELETE api/values/5
         [HttpDelete("{id}")]
         public async void Delete(int id)

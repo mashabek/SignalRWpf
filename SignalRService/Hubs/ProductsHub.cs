@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace SignalRService.Hubs
 {
-    public class ProductsHub : Hub<IProductClient>
+    /// <summary>
+    /// Used for providing realtime updates for the ProductsController.
+    /// </summary>
+    public class ProductsHub : Hub<IProductsClient>
     {
         public async Task Add(Product product) => await Clients.All.Add(product);
         public async Task Delete(int id) => await Clients.All.Delete(id);

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SignalRService.Hubs
 {
-    public interface IProductClient
+    /// <summary>
+    /// Defines the events associated with the Hub.
+    /// </summary>
+    public interface IProductsClient
     {
         Task Add(Product product);
         Task Delete(int id);
